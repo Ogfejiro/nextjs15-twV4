@@ -6,11 +6,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
-            <span className="text-2xl font-serif italic">
-              <span className="text-gray-800">Buy</span>
-              <span className="text-yellow-500">Afrika</span>
-            </span>
+          <div className="flex items-center w-50 h-12">
+            <img src="/images/logo.JPG"></img>
           </div>
 
           {/* Navigation Links */}
